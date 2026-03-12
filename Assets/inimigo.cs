@@ -51,11 +51,11 @@ public class Inimigo : MonoBehaviour
     {
         if (moveInput < 0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
         else
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
